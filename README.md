@@ -5,7 +5,7 @@
 ## User Story
 As a traveler, I wamt to see the weather outlook for multiple cities. So, that I can plan a trip accordingly.
 
-## Description
+## Description Servers and APIs
 External APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Developers are often tasked with retrieving data from another application's API and using it in their context, frequently consuming this data via a server. My task is to build a weather dashboard application that calls the OpenWeather API and renders data in the browser.The application’s front end has already been created. It's my job to build the back end, connect the two, and then deploy the entire application to Render.
 
 ## Table of Contents
@@ -37,9 +37,18 @@ command:  npm install
 
 ## Usage
 I will be using 5-day weather forecast API to retrieve weather data for cities.
-To start the application, run:
-
-command: npm run start
+To start the application
+Add your server and api scripts in the scripts section of package.json
+{
+  "scripts": {
+    "server": "node server.js",
+    "api": "node api.js",
+    "start": "npm run server & npm run api"
+  }
+}
+command: npm run server will start the server (server.js file).
+Command: npm run api will start the API (api.js file).
+command: npm start runs both server and api scripts concurrently
 
 ## License
 This project is licensed under the MIT License and Apache 2.0
