@@ -11,11 +11,11 @@ External APIs allow developers to access their data and functionality by making 
 ## Table of Contents
 
 -Description      
--Installation
--Usage
--License
--Contributing
--Tests
+-Installation   
+-Usage     
+-License       
+-Contributing       
+-Tests        
 -Questions
 
 ## Installation
