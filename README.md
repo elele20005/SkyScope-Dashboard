@@ -44,7 +44,7 @@ Add your server and api scripts in the scripts section of package.json
  "server": "node server.js",      
    "api": "node api.js",         
     "start": "npm run server & npm run api"         
-    }           
+       }           
 }        
 command: npm run server will start the server (server.js file).
 Command: npm run api will start the API (api.js file).
