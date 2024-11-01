@@ -10,7 +10,7 @@ External APIs allow developers to access their data and functionality by making 
 
 ## Table of Contents
 
--Description
+-Description      
 -Installation
 -Usage
 -License
