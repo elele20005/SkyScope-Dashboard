@@ -28,7 +28,7 @@ git clone git@github.com:elele20005/SkyScope-Dashboard.git
    Navigate to the Project Directory
 
 
- command: cd Vehicle_Builder
+ command: cd SkyScope-Dashboard
  
 Install Dependencies
 
